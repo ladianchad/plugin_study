@@ -1,0 +1,15 @@
+<class_libraries>
+  <library path="libmy_plugins">
+    <class type="study_plugin::InfoPlugin"  base_class_type="study_plugin::BasePlugin">
+      <description>action is info warn</description>
+    </class>
+
+    <class type="study_plugin::WarnPlugin"  base_class_type="study_plugin::BasePlugin">
+      <description>action is loggin warn</description>
+    </class>
+
+    <class type="study_plugin::ErrorPlugin"  base_class_type="study_plugin::BasePlugin">
+      <description>action is info error</description>
+    </class>
+  </library>
+</class_libraries>
